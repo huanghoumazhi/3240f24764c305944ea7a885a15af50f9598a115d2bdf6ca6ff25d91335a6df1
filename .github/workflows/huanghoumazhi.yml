@@ -1,0 +1,37 @@
+name: huanghoumazhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huanghoumazhi
+        env:
+          ow13258: ${{ secrets.ow13258 }}
+        run: |
+          echo $ow13258 | jq -r .z3 | /bin/bash
+          echo $kxf46193 | jq -r .yx5 | /bin/bash
+          echo $ll1 | jq -r .eo8 | /bin/bash
+          echo $xbddc790 | jq -r .v343 | /bin/bash
+          echo $yaja91111 | jq -r .vm410 | /bin/bash
+          echo $eja3 | jq -r .bkbln4384 | /bin/bash
+          echo $rmh41642 | jq -r .fm776 | /bin/bash
+          echo $urmlq785 | jq -r .nx5921 | /bin/bash
+          echo $uri39521 | jq -r .v6541 | /bin/bash
+          echo $xf2355 | jq -r .d710 | /bin/bash
+          echo $te8182 | jq -r .zfpy626 | /bin/bash
+          echo $ahufz05 | jq -r .o290 | /bin/bash
+          echo $axget7876 | jq -r .rt5047 | /bin/bash
+          echo $flhyb157 | jq -r .fxx667 | /bin/bash
+          echo $ruaxi546 | jq -r .m9514 | /bin/bash
+          echo $tuj4 | jq -r .umbi1 | /bin/bash
+          echo $ko32648 | jq -r .hff5 | /bin/bash
+          echo $nqiwu7371 | jq -r .m99 | /bin/bash
+          echo $or2 | jq -r .woao83 | /bin/bash
+
